@@ -1,0 +1,13 @@
+{
+  "name": "yarn-test-core",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+  },
+  "dependencies": {
+    "yarn-test-microservice": "git+ssh://git@github.com/fourslashw/yarn-test-microservice.git#release-a",
+    "yarn-test-lib": "git+ssh://git@github.com/fourslashw/yarn-test-lib.git#release-b"
+  },
+  "devDependencies": {
+  }
+}
